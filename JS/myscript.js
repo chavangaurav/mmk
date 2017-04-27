@@ -93,7 +93,7 @@ $(document).ready(function(){
 $('#serviceList li a').mouseover(function(){
     var imagePath = $(this).attr('id');
     $('#service_frame').fadeOut(200, function(){
-       $(this).css('background-image',"url('https://chavangaurav.github.io/mmk/Images/services/"+imagePath+".jpg')").fadeIn(200); 
+       $(this).css('background-image',"url('/mmk/Images/services/"+imagePath+".jpg')").fadeIn(200); 
     });
 });
 });
