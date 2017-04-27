@@ -1,0 +1,552 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('/font-awesome-4.7.0/css/font-awesome.min.css');
+
+body {
+margin:0px;
+padding:0px;
+background-color: #E7E4E0;
+font-family: 'Open Sans', sans-serif;
+font-size:18px;
+}
+
+.header {
+	position:absolute;
+	height: 195px;
+	width: 195px;
+}
+
+.cheader img {
+    margin-left: 15px;
+	width:400px;
+    height:auto;
+}
+
+.header_line {
+    background-color:black;
+    border:none;
+    height:5px;
+}
+
+.container
+{
+    position: relative;
+	background-color:white;
+	margin:auto;
+    max-width:1160px;
+}
+
+.cheader {
+	height:100px;
+	padding: 10px 0px;
+	text-align:left;
+    display: flex;
+}
+
+.header_contact {
+    margin-right:50px;
+    text-align:right;
+}
+
+.header_contact p {
+    font-size:20px;
+}
+
+.ccontent {
+	height:800px;
+}
+
+.slider {
+height:343px;
+overflow:hidden;
+}
+
+.slider img {
+	width:100%;
+	height:auto;
+	display:none;
+}
+
+.cont {
+	padding: 25px 0px 0px 0px;
+}
+
+.menu {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.occupy {
+    flex:1;
+}
+
+
+.fixed {
+    position:fixed;
+    top:0;
+    margin:auto;
+    max-width:1160px ;
+}
+
+.menu li, .menu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu a {
+    display: block;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.menu a:hover {
+    background-color: black;
+}
+
+.menu ul li ul li {
+    float: none;
+}
+
+.menu ul li ul {
+    position: absolute;
+    display: none;
+}
+
+.menu li:hover ul{
+display:block;
+background-color: rgba(0,0,0,0.6);
+}
+
+#slider {
+	height:600px;
+	width:auto;
+    overflow: hidden;
+}
+
+.slide img {
+	width:100%;
+}
+
+#slider .slides {
+    height:600px;
+	margin: 0;
+    padding: 0;
+    float:left; 
+    width:8000px;
+    
+}
+
+#slider .slide {
+    float: left;
+	width:auto;
+    list-style-type: none;
+	height:600px;
+}
+
+
+
+.about_container {
+    padding:0px 60px 25px 60px;
+    margin-top: -50px;  
+} 
+
+.about_us p{
+    text-align:justify;
+    text-indent:50px;
+}
+
+.director_speak {
+    background-color:darkseagreen;
+    padding:25px 25px 25px 25px;
+    display: flex;
+}
+
+.title_container {
+    display:flex;
+}
+
+.title_left{
+    flex:1;
+}
+
+.title_container hr{
+    margin-top:40px;
+}
+
+.titles {
+    padding:0px 20px;
+}
+
+titles h1{
+    text-align:center;
+    font-size:26px;
+}
+
+.title_right{
+    flex:1;
+}
+
+.director_img {
+    width: 175px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.director_img img {
+    width: 100%;
+    border-radius: 100px;
+}
+
+.director_img p {
+    font-size: 19px;
+    color: black;
+    margin-top: -1px;
+}
+
+
+.director_content {
+    padding: 0px 30px 0px 30px;
+    font-style:normal;
+    text-align: justify;
+    color: black;
+    flex: 1;
+    font-size: 18px;
+    line-height: 25px;
+    overflow: hidden;
+}
+
+.director_content span {
+    float:right;
+    font-weight: bold;
+}
+
+.card {
+    display: flex;
+    margin: auto;
+    max-width: 700;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+
+.card_element {
+    width: 300px;
+    padding: 0px;
+}
+
+.card_element:hover {
+    opacity: 1;
+}
+
+.card_header {
+    top:10px;
+    text-align: center;
+    padding-bottom: 1px;
+    background-color: darkseagreen;
+}
+
+.card_content table {
+    width: 100%;
+    border: 1px solid darkseagreen;
+    
+
+}
+
+.card_content tr {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.card_content tr:hover {
+    background-color: darkseagreen;
+}
+
+
+.card_content tr:nth-child(even) {
+    background-color: beige;
+}
+
+.card_content tr:nth-child(even):hover {
+    background-color: darkseagreen;
+}
+
+.card_content td {
+    padding: 5px 0px;
+    border-spacing: 0px;
+}
+
+
+.card_header p {
+    font-style: normal;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.card_img {
+    width: 300px;
+}
+
+.card_img img {
+    width: 300px;
+}
+
+.card_img img:hover {
+    opacity: 0.5;
+}
+
+
+.grass_service {
+    background-color:skyblue;
+    padding:10px 0px 40px 25px;
+    background-image: url("../Images/grass_png_landscape-image.png");
+    background-position: bottom;
+    background-repeat: repeat-x;
+}
+
+.grass_service_content {
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+}
+
+.service_container {
+    padding:0px 25px;
+    display:flex;
+}
+
+.list_slider{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.list_slider li{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.list_slider a {
+    display: block;
+    width: 300px;
+    text-align: center;
+    padding: 10px 0px;
+    border-left:1px solid darkseagreen; 
+    border-top: 1px solid darkseagreen;
+}
+
+.list_slider a:hover {
+    background-color: darkseagreen;
+    cursor: pointer;
+}
+
+.list_slider ul li:last-child a {
+   border-bottom: 1px solid darkseagreen;
+}
+
+.service_frame {
+    flex:1;
+    margin:18px 25px 18px 0px;
+    border:1px solid darkseagreen;
+    background-image: url("../Images/services/img1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%
+}
+
+.image_gallery {
+    padding: 25px;
+    height: auto;
+}
+
+.image_category p {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.image_category {
+    background-color: darkseagreen;
+    text-align: center;
+    padding: 2px;
+}
+
+.image_row {
+    display: flex;
+}
+
+.image_thumbnail {
+padding: 0px;
+width: 25%;
+height: auto;
+flex: 1;
+overflow: hidden;
+}
+
+.image_thumbnail h1 {
+margin-top: -50%;
+text-align: center;
+font-size: 200%;
+display: none;
+}
+
+.image_thumbnail img {
+    width:100%;
+    height: auto;
+    //border-radius: 100px;
+    //opacity: 0.5;
+}
+.image_thumbnail img:hover {
+    opacity: 0.5;
+}
+
+.image_thumbnail img:hover .image_thumbnail h1 {
+margin-top: -40%;
+text-align: center;
+font-size: 200%;
+display: block;
+}
+
+.contact_container {
+    background-color:skyblue;
+    padding:0px 0px 40px 0px;
+    background-image: url("../Images/grass_png_landscape-image.png");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-color:skyblue;
+}
+
+.contact_form {
+    margin:auto;
+    max-width: 500px;
+    text-align: center;
+}
+
+.contact_form input[type="text"] {
+    height: 35px;
+    padding: 7px;
+    margin: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.contact_form select {
+    height: 35px;
+    padding: 7px;
+    margin: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.contact_form textarea {
+    //height: 35px;
+    padding: 7px;
+    margin: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.contact_form button {
+    width: 100;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.footr {
+    padding: 25px 25px 1px 25px;
+    background-color:darkseagreen;
+	margin:auto;
+    max-width:1110px;
+    margin-top: 0px;
+}
+
+.quicklink_continer {
+    display: flex;
+}
+
+.quicklink {
+    text-align: left;
+    width: 33.33%;
+    color: black;
+}
+
+.quicklink li{
+    margin: 10px;
+    list-style-type: none;
+}
+
+.quicklink a:link,.quicklink a:active,.quicklink a:visited {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.quicklink a:hover {
+    text-decoration: underline;
+}
+
+.quicklink ul{
+    margin: 0px;
+    padding: 10px;
+}
+
+.connect {
+    //width: 100%;
+    display: flex;
+}
+
+.footr p {
+    color:black;
+    font-size:17px;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+}
+.footr i {
+    color:beige;
+    font-size:50px;
+    margin-right: 10px;
+    height: 50px;
+    float:right;
+    cursor: pointer;
+}
+
+.footr i:hover {
+    color:burlywood;
+}
+
+hr {
+    border: 0.5px dashed grey;
+}
+
+footr ul {
+    list-style-type: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
